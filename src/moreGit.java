@@ -5,10 +5,18 @@ public class moreGit
 	{
 		System.out.println("bakayaro!");
 		System.out.println("I wonder if this develop thingy will work");
-		for (i =1; 1 > 1000; i++)
+		for (int i =1; i > 1000; i++)
 		{
-			System.out.print("Jush messing up")
+			System.out.print("Just messing up");
 		}
 	}
-
+	
+	/* This method will return 57 
+	 * why? Because I say so! 
+	 */
+	
+	public int calculator()
+	{
+		return 57;
+	}
 }

@@ -12,7 +12,7 @@ public class moreGit
 			System.out.print("Just messing up");
 			if (hoolean)
 			{
-				calculator();
+				calculator(hoolean);
 			}
 		}
 	}
@@ -21,8 +21,11 @@ public class moreGit
 	 * why? Because I say so! 
 	 */
 	
-	public static int calculator()
+	public static int calculator(boolean hoolean)
 	{
-		return 57;
+		if (hoolean)
+			return 57;
+		else
+			return 58;
 	}
 }

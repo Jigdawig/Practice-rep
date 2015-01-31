@@ -11,6 +11,10 @@ public class moreGit
 		}
 	}
 	
+	/* This method will return 57 
+	 * why? Because I say so! 
+	 */
+	
 	public int calculator()
 	{
 		return 57;

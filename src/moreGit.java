@@ -7,7 +7,13 @@ public class moreGit
 		System.out.println("I wonder if this develop thingy will work");
 		for (int i =1; i > 1000; i++)
 		{
+			boolean hoolean = false;
+			
 			System.out.print("Just messing up");
+			if (hoolean)
+			{
+				calculator(hoolean);
+			}
 		}
 	}
 	
@@ -15,8 +21,11 @@ public class moreGit
 	 * why? Because I say so! 
 	 */
 	
-	public int calculator()
+	public static int calculator(boolean hoolean)
 	{
-		return 57;
+		if (hoolean)
+			return 57;
+		else
+			return 58;
 	}
 }
